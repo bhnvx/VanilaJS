@@ -1,4 +1,8 @@
-const _a_num = 1;
-const _b_num = 2;
+const InputText = document.querySelector("#input-form input");
+const ButtonForm = document.querySelector("#input-form button");
 
-console.log("test");
+function onInputBtnCLick() {
+  console.log("Click");
+}
+
+ButtonForm.addEventListener("click", onInputBtnCLick);
